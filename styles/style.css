@@ -63,7 +63,7 @@ nav ul{
     font-weight: 700px;
 }
 /* banner section styles end*/
-.container{
+.quick-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 42px;
@@ -96,4 +96,58 @@ nav ul{
     font-size: 16px;
     color: #727272;
 }
-/* Quick-section-styles */
+/* Quick-section-styles-end */
+/* Features-section-styles */
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 85px;
+    margin: 85px 100px 24px ;
+    align-items: center;
+}
+.features {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin-bottom: 24px;    
+}
+.features h5{
+    font-size: 20px;
+}
+.features p{
+    font-size: 16px;
+    color: #727272;
+}
+.features-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 32px;
+}
+.features-sub-title{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.features-image{
+    width: 50%;
+    height: 982px;
+}
+.features-btn{
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    border: none;
+}
+.small-text{
+    font-size: 24px;
+}
+/* .exp-btn{
+   
+} */
+/* Features-section-end */
