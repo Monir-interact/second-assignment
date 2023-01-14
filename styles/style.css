@@ -1,13 +1,16 @@
+/* common styles */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600;1,700&family=Open+Sans&family=Poppins:wght@500&family=Roboto+Serif:opsz,wght@8..144,100;8..144,500;8..144,600;8..144,700&family=Work+Sans:wght@400;700&display=swap');
 *{
     font-family: 'Work Sans', sans-serif;
+    align-items: center;
 }
+/* common styles end */
 header{
     background-color: #f8ebde;
     background-size: cover;
 
 }
-/* nav section */
+/* nav section styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -25,10 +28,9 @@ nav ul{
     color: #131313;
     font-size: 32px;
 }
-/* banner section */
+/* banner section styles*/
 .banner-titles{
     text-align: center;
-    /* margin: 0 500px; */
     display: flex;
     flex-direction: column;
     column-gap: 32px;
@@ -60,3 +62,38 @@ nav ul{
     font-size: 20px;
     font-weight: 700px;
 }
+/* banner section styles end*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 42px;
+    margin-top: 85px;
+}
+.quick-team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    margin-left: 230px;
+}
+.quick-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.span-1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.span-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.quick-sub-title{
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: #727272;
+}
+/* Quick-section-styles */
