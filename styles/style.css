@@ -278,22 +278,30 @@ margin-top: 100px;
     .banner-title{
         padding-top: 5px;
     }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
     .banner-image{
         display: none;
     }
-    .quick-container .quick-team{
+    .quick-team{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-
-       
+        margin-left: -5px;
+        justify-content: center;      
+    }
+    .quick-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
         .features-container {
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            gap: 85px;
-            margin:100%;
-            /* align-items: center; */
+                grid-template-columns: repeat(1, 1fr);
+                gap: 85px;
+                margin: 0x;
+                align-items: center;
+                justify-content: center;
         }
         .nav ul{
             display: flex;
@@ -302,7 +310,10 @@ margin-top: 100px;
             font-size: 18px;
             color: #424242;
         }
-    
+.facts-container {
+    margin-top: 85px;
+    margin: left 5px;;
+}
 .facts-ranks{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -311,6 +322,12 @@ margin-top: 100px;
         /* margin-left: 230px;
         margin-right: 230px; */
     }
+        .sponsors {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 42px;
+            justify-content: center;
+        }
 }
 /* for medium device-styles */
 @media only screen and (mini-width:689px) and (max-widht:992px){
