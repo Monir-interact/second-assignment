@@ -130,10 +130,12 @@ nav ul{
     color: #727272;
     margin-bottom: 32px;
 }
-.features-image{
-    width: 50%;
-    height: 982px;
-}
+/* .features-z-box{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    z-index:2;
+} */
 .features-btn{
     width: 342px;
     height: 200px;
@@ -143,11 +145,61 @@ nav ul{
     font-size: 65px;
     color: #FFFFFF;
     border: none;
+    margin-top: -120px;
+    margin-left: -60px;
 }
 .small-text{
     font-size: 24px;
 }
+
 /* .exp-btn{
    
 } */
 /* Features-section-end */
+/* some-facts-styles */
+.facts-container{
+    margin-top: 85px;
+    margin-left: 230px;
+    margin-right: 230px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.facts-sub-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+.facts-ranks{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+column-gap: 32px;
+align-content: center;
+margin-top: 100px;
+
+}
+.ranks {
+    border: 2px solid #FF900E;
+    /* width: 241.83px;
+    height: 241.83px; */
+    /* box-shadow: 0px 4px 25px; */
+    border-radius: 8px;
+    text-align: center;
+    padding: 25px 50px;
+}
+.ranks-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.ranks-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
